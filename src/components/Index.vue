@@ -1,25 +1,21 @@
 <template>
-  <div class="hello">
-    <h3>首页</h3>
+  <div class="main">
+    <div class="leftbar">左边</div>
+    <div class="rightbar">右边</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
+  name: "HelloWorld",
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
+      msg: "Welcome to Your Vue.js App",
+    };
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .hello{
-     h3{
-         color: red;
-     }
-  }
 </style>

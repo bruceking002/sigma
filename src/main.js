@@ -9,6 +9,8 @@ Vue.use(ElementUI) //使用elementUI
 import less from 'less'
 Vue.use(less)
 
+import '@/assets/css/common.css';
+
 
 Vue.config.productionTip = false
 
