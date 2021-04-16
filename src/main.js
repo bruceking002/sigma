@@ -8,8 +8,7 @@ import 'element-ui/lib/theme-chalk/index.css'//element-ui的css
 Vue.use(ElementUI) //使用elementUI
 import less from 'less'
 Vue.use(less)
-
-import '@/assets/css/common.css';
+import '@/assets/css/common.less';
 
 
 Vue.config.productionTip = false
